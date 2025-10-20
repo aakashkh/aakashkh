@@ -1,0 +1,216 @@
+baseURL = "https://aakashkh.github.io/"
+languageCode = "en-us"
+title = "Aakash Khandelwal"
+theme = "hugo-profile"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[[Menus.main]]
+identifier = "blog"
+name = "Blog"
+title = "Blog posts"
+url = "/blogs"
+weight = 1
+
+[params]
+title = "Aakash Khandelwal"
+description = "Software Engineer & Travel Enthusiast"
+favicon = "/fav.png"
+
+[params.theme]
+disableThemeToggle = false
+defaultTheme = "dark"
+
+[params.font]
+fontSize = "1rem"
+fontWeight = 400
+lineHeight = 1.5
+textAlign = "left"
+
+[params.navbar]
+align = "ms-auto"
+brandName = "Aakash Khandelwal"
+disableSearch = false
+searchPlaceholder = "Search"
+stickyNavBar = true
+
+[params.hero]
+enable = true
+intro = "Hi, my name is"
+title = "Aakash Khandelwal"
+subtitle = "Software Engineer & Data Enthusiast"
+content = "I build scalable data solutions and explore the world through travel. Passionate about modern data engineering, Python, and discovering hidden gems across India."
+image = "/images/hero.svg"
+
+[[params.hero.bottomImage]]
+src = "/images/scrolldown.svg"
+
+[[params.hero.button]]
+name = "Resume"
+url = "#"
+download = true
+newPage = false
+
+[[params.hero.button]]
+name = "Contact"
+url = "#contact"
+download = false
+newPage = false
+
+[params.about]
+enable = true
+title = "About Me"
+image = "/images/me.png"
+content = """
+I am a software engineer with a passion for data engineering and analytics. I love building efficient data pipelines, exploring new technologies, and sharing knowledge through technical writing.
+
+When I'm not coding, you'll find me planning my next adventure or trekking through the Himalayas. I document my travels and share practical guides to help fellow travelers discover incredible destinations.
+"""
+
+[[params.about.skills]]
+name = "Python"
+image = "/images/skills/python.png"
+
+[[params.about.skills]]
+name = "Pandas"
+image = "/images/skills/pandas.png"
+
+[[params.about.skills]]
+name = "SQL"
+image = "/images/skills/sql.png"
+
+[[params.about.skills]]
+name = "Azure"
+image = "/images/skills/azure.png"
+
+[[params.about.skills]]
+name = "Power BI"
+image = "/images/skills/powerbi.png"
+
+[[params.about.skills]]
+name = "Git"
+image = "/images/skills/git.png"
+
+[params.experience]
+enable = true
+title = "Experience"
+index = false
+
+[[params.experience.items]]
+job = "Senior Software Engineer"
+company = "Tech Company"
+companyUrl = "https://example.com"
+date = "Jan 2022 - Present"
+content = "I am currently working as a software engineer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+[[params.experience.items]]
+job = "Software Developer"
+company = "Previous Company"
+companyUrl = "https://example.com"
+date = "Sep 2020 - Dec 2021"
+content = """
+I worked as a software developer for more than one year in Amazon.
+- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+- Tempora, eaque? Velit, eius laborum
+- Laudantium, corrupti explicabo asperiores architecto
+"""
+
+[params.education]
+enable = true
+title = "Education"
+index = false
+
+[[params.education.items]]
+title = "Master of Business Administration"
+school.name = "University of California, Berkeley"
+school.url = "https://example.org"
+date = "2013 - 2015"
+GPA = "3.8 out of 5.0"
+
+[[params.education.items]]
+title = "Bachelor of Computer Science"
+school.name = "Massachusetts Institute of Technology"
+school.url = "https://example.org"
+date = "2009 - 2013"
+GPA = "3.9 out of 5.0"
+
+[params.achievements]
+enable = false
+
+[params.projects]
+enable = true
+title = "Projects"
+
+[[params.projects.items]]
+title = "Data Patterns"
+content = "A comprehensive collection of modern data engineering patterns, Python tricks, and analytics techniques. Built with Hugo and featuring practical examples for Pandas, DuckDB, and cloud technologies."
+image = "/images/projects/data-patterns.png"
+badges = ["Hugo", "Python", "Data Engineering", "Analytics"]
+
+[[params.projects.items.links]]
+name = "Live Site"
+url = "https://aakashkh.github.io/data-patterns/"
+icon = "fa fa-eye"
+
+[[params.projects.items.links]]
+name = "Github"
+url = "https://github.com/aakashkh/data-patterns"
+icon = "fab fa-github"
+
+[[params.projects.items]]
+title = "Travel Blog"
+content = "Epic Himalayan adventures and travel guides featuring detailed itineraries, costs, and insider tips. Built with Hugo and optimized for performance with responsive images and interactive features."
+image = "/images/projects/travel-blog.png"
+badges = ["Hugo", "Travel", "Photography", "Adventure"]
+
+[[params.projects.items.links]]
+name = "Live Site"
+url = "https://aakashkh.github.io/travel/"
+icon = "fa fa-eye"
+
+[[params.projects.items.links]]
+name = "Github"
+url = "https://github.com/aakashkh/travel"
+icon = "fab fa-github"
+
+[params.contact]
+enable = true
+title = "Contact"
+content = "My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!"
+btnName = "Mail me"
+btnLink = "mailto:aakashkh284@gmail.com"
+
+[[params.contact.links]]
+name = "GitHub"
+url = "https://github.com/aakashkh"
+icon = "fab fa-github"
+
+[[params.contact.links]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/aakashkh284"
+icon = "fab fa-linkedin"
+
+[[params.contact.links]]
+name = "Twitter"
+url = "https://twitter.com/aakashkh284"
+icon = "fab fa-twitter"
+
+[params.footer]
+recentPosts = false
+
+[[params.footer.socialNetworks]]
+href = "https://github.com/aakashkh"
+icon = "fab fa-github"
+
+[[params.footer.socialNetworks]]
+href = "https://www.linkedin.com/in/aakashkh284"
+icon = "fab fa-linkedin"
+
+[[params.footer.socialNetworks]]
+href = "https://twitter.com/aakashkh284"
+icon = "fab fa-twitter"
