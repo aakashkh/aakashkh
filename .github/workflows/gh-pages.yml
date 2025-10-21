@@ -21,8 +21,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true   # Fetch Hugo themes
-          fetch-depth: 0     # Needed for Hugo .GitInfo and .Lastmod
+          submodules: true
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
