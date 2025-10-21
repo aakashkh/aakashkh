@@ -48,7 +48,8 @@ subtitle = "Software Engineer & Data Enthusiast"
 content = "I build scalable data solutions and explore the world through travel. Passionate about modern data engineering, Python, and discovering hidden gems across India."
 image = "/images/hero.svg"
 
-[[params.hero.bottomImage]]
+[params.hero.bottomImage]
+enable = true
 src = "/images/scrolldown.svg"
 
 [params.hero.button]
@@ -206,14 +207,7 @@ icon = "fab fa-twitter"
 [params.footer.recentPosts]
 enable = false
 
-[[params.footer.socialNetworks]]
-href = "https://github.com/aakashkh"
-icon = "fab fa-github"
-
-[[params.footer.socialNetworks]]
-href = "https://www.linkedin.com/in/aakashkh284"
-icon = "fab fa-linkedin"
-
-[[params.footer.socialNetworks]]
-href = "https://twitter.com/aakashkh284"
-icon = "fab fa-twitter"
+[params.footer.socialNetworks]
+github = "https://github.com/aakashkh"
+linkedin = "https://www.linkedin.com/in/aakashkh284"
+twitter = "https://twitter.com/aakashkh284"
