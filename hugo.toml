@@ -187,7 +187,7 @@ icon = "fab fa-github"
 [params.contact]
 enable = true
 title = "Contact"
-content = "My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!"
+content = "My inbox is open. Whether you have a question or just want to say hi, I'll try my best to get back to you!"
 btnName = "Mail me"
 btnLink = "mailto:aakashkh284@gmail.com"
 
