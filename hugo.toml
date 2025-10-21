@@ -37,7 +37,8 @@ align = "ms-auto"
 brandName = "Aakash Khandelwal"
 disableSearch = false
 searchPlaceholder = "Search"
-stickyNavBar = true
+[params.navbar.stickyNavBar]
+enable = true
 
 [params.hero]
 enable = true
