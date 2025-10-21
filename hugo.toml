@@ -51,17 +51,18 @@ image = "/images/hero.svg"
 [[params.hero.bottomImage]]
 src = "/images/scrolldown.svg"
 
-[[params.hero.button]]
+[params.hero.button]
+enable = true
 name = "Resume"
 url = "#"
 download = true
 newPage = false
 
-[[params.hero.button]]
-name = "Contact"
-url = "#contact"
-download = false
-newPage = false
+# [[params.hero.button]]
+# name = "Contact"
+# url = "#contact"
+# download = false
+# newPage = false
 
 [params.about]
 enable = true
@@ -202,7 +203,8 @@ url = "https://twitter.com/aakashkh284"
 icon = "fab fa-twitter"
 
 [params.footer]
-recentPosts = false
+[params.footer.recentPosts]
+enable = false
 
 [[params.footer.socialNetworks]]
 href = "https://github.com/aakashkh"
