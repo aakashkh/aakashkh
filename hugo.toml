@@ -85,7 +85,7 @@ image = "/images/skills/python.png"
 
 [[params.about.skills.list]]
 name = "Pandas"
-image = "/images/skills/pandas.png"
+image = "/images/skills/pandas.svg"
 
 [[params.about.skills.list]]
 name = "SQL"
@@ -93,7 +93,7 @@ image = "/images/skills/sql.png"
 
 [[params.about.skills.list]]
 name = "Azure"
-image = "/images/skills/azure.png"
+image = "/images/skills/azure.png"  # ADD azure.png TO static/images/skills/
 
 [[params.about.skills.list]]
 name = "Power BI"
@@ -101,7 +101,7 @@ image = "/images/skills/powerbi.png"
 
 [[params.about.skills.list]]
 name = "Git"
-image = "/images/skills/git.png"
+image = "/images/skills/git.png"  # ADD git.png TO static/images/skills/
 
 [params.experience]
 enable = true
