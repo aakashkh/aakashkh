@@ -1,0 +1,13 @@
+{{ if .Site.Params.about.skills.enable }}
+<section id="skills">
+  <h2>{{ .Site.Params.about.skills.title }}</h2>
+  <div class="skills-grid">
+    {{ range .Site.Params.about.skills.list }}
+    <div class="skill-item">
+      <img src="{{ .image | relURL }}" alt="{{ .name }} logo">
+      <span>{{ .name }}</span>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
