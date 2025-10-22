@@ -156,7 +156,7 @@ title = "Projects"
 [[params.projects.items]]
 title = "Data Patterns"
 content = "A comprehensive collection of modern data engineering patterns, Python tricks, and analytics techniques. Built with Hugo and featuring practical examples for Pandas, DuckDB, and cloud technologies."
-image = "/images/projects/data-patterns.png"
+image = "/images/projects/data_engineering.jpg"
 badges = ["Hugo", "Python", "Data Engineering", "Analytics"]
 
 [[params.projects.items.links]]
@@ -172,7 +172,7 @@ icon = "fab fa-github"
 [[params.projects.items]]
 title = "Travel Blog"
 content = "Epic Himalayan adventures and travel guides featuring detailed itineraries, costs, and insider tips. Built with Hugo and optimized for performance with responsive images and interactive features."
-image = "/images/projects/travel-blog.png"
+image = "/images/projects/travel.jpg"
 badges = ["Hugo", "Travel", "Photography", "Adventure"]
 
 [[params.projects.items.links]]
