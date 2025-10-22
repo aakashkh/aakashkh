@@ -25,7 +25,7 @@ favicon = "/fav.png"
 
 [params.theme]
 disableThemeToggle = false
-defaultTheme = "dark"
+defaultTheme = "light"
 
 [params.font]
 fontSize = "1rem"
@@ -92,17 +92,17 @@ image = "/images/skills/pandas.png"
 name = "SQL"
 image = "/images/skills/sql.png"
 
-[[params.about.skills.list]]
-name = "Azure"
-image = "/images/skills/azure.png"  # ADD azure.png TO static/images/skills/
+#[[params.about.skills.list]]
+#name = "Azure"
+#image = "/images/skills/azure.png"  # ADD azure.png TO static/images/skills/
 
 [[params.about.skills.list]]
 name = "Power BI"
 image = "/images/skills/powerbi.png"
 
-[[params.about.skills.list]]
-name = "Git"
-image = "/images/skills/git.png"  # ADD git.png TO static/images/skills/
+#[[params.about.skills.list]]
+#name = "Git"
+#image = "/images/skills/git.png"  # ADD git.png TO static/images/skills/
 
 [params.experience]
 enable = true
@@ -110,23 +110,18 @@ title = "Experience"
 index = false
 
 [[params.experience.items]]
-job = "Senior Software Engineer"
-company = "Tech Company"
-companyUrl = "https://example.com"
-date = "Jan 2022 - Present"
-content = "I am currently working as a software engineer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+company = "Nagarro"
+company_url = "https://www.linkedin.com/company/11902/"
+location = "Gurugram, Haryana, India"
+roles = [
+  { title = "Senior Staff Consultant", duration = "Jul 2024 - Jul 2025", description = "Serving as a Senior Staff Consultant, contributing to advanced analytics and consulting projects with a hybrid work model. Provided leadership in complex data-driven solutions aligned with organizational goals." },
+  { title = "Staff Consultant", duration = "Jan 2023 - Jun 2024", description = "Collaborated on data analytics initiatives and delivered impactful solutions to support business decisions. Successfully drove analytics projects in a hybrid environment, enhancing data utilization across departments." },
+  { title = "Associate Staff Consultant", duration = "Jul 2021 - Dec 2022", description = "Led internal data analytics efforts, managing organizational data requirements and enabling strategic decision-making with CXOs. Key focus areas included hiring, resourcing, and financial analytics." },
+  { title = "Senior Analyst", duration = "Jan 2020 - Jun 2021", description = "Led a team responsible for analytics and reporting, creating custom dashboards and Python-powered reports. Developed over 10 financial KPIs to support planning and analysis." },
+  { title = "Associate", duration = "Jul 2018 - Dec 2019", description = "Managed enterprise data integration projects using Microsoft Azure Data Lake. Set up data ingestion and processing pipelines for Azure Analysis Service and Power BI." },
+  { title = "Junior Associate", duration = "May 2017 - Jul 2018", description = "Worked on financial budgeting, inventory reporting, and bench management. Automated internal reporting using Power BI." }
+]
 
-[[params.experience.items]]
-job = "Software Developer"
-company = "Previous Company"
-companyUrl = "https://example.com"
-date = "Sep 2020 - Dec 2021"
-content = """
-I worked as a software developer for more than one year in Amazon.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Tempora, eaque? Velit, eius laborum
-- Laudantium, corrupti explicabo asperiores architecto
-"""
 
 [params.education]
 enable = true
