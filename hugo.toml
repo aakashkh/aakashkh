@@ -69,7 +69,7 @@ newPage = false
 [params.about]
 enable = true
 title = "About Me"
-image = "/images/me.png"
+image = "/images/me.jpg"
 content = """
 I am a software engineer with a passion for data engineering and analytics. I love building efficient data pipelines, exploring new technologies, and sharing knowledge through technical writing.
 
@@ -78,6 +78,7 @@ When I'm not coding, you'll find me planning my next adventure or trekking throu
 
 [params.about.skills]
 enable = true
+title = "Skills"
 
 [[params.about.skills.list]]
 name = "Python"

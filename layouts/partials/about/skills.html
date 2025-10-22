@@ -4,7 +4,7 @@
   <div class="skills-grid">
     {{ range .Site.Params.about.skills.list }}
     <div class="skill-item">
-      <img src="{{ .image | relURL }}" alt="{{ .name }} logo">
+      <img src="{{ $.Site.Params.staticPath }}{{ .image }}" alt="{{ .name }} logo">
       <span>{{ .name }}</span>
     </div>
     {{ end }}
