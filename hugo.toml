@@ -18,6 +18,7 @@ url = "/blogs"
 weight = 1
 
 [params]
+staticPath = "/aakashkh"
 title = "Aakash Khandelwal"
 description = "Software Engineer & Travel Enthusiast"
 favicon = "/fav.png"
