@@ -85,7 +85,7 @@ image = "/images/skills/python.png"
 
 [[params.about.skills.list]]
 name = "Pandas"
-image = "/images/skills/pandas.svg"
+image = "/images/skills/pandas.png"
 
 [[params.about.skills.list]]
 name = "SQL"
