@@ -46,10 +46,8 @@ enable = true
 enable = true
 intro = "Hi, my name is"
 title = "Aakash Khandelwal"
-subtitle = "Software Engineer & Data Enthusiast"
-content = "I build scalable data solutions and explore the world through travel. Passionate about modern data engineering, Python, and discovering hidden gems across India."
-image = "/images/hero.svg"
-
+subtitle = "Analytics Lead & Data Engineering Specialist"
+content = "I design enterprise-scale data solutions with 9 years of experience at Nagarro. Expert in Python, Pandas, Spark, SQL, and Azure cloud technologies."
 [params.hero.bottomImage]
 enable = true
 src = "/images/scrolldown.svg"
@@ -72,9 +70,12 @@ enable = true
 title = "About Me"
 image = "/images/me.jpg"
 content = """
-I am a software engineer with a passion for data engineering and analytics. I love building efficient data pipelines, exploring new technologies, and sharing knowledge through technical writing.
-
-When I'm not coding, you'll find me planning my next adventure or trekking through the Himalayas. I document my travels and share practical guides to help fellow travelers discover incredible destinations.
+I am an Analytics Lead with a passion for data engineering and modern analytics frameworks.
+With 9 years at Nagarro, I specialize in building scalable data pipelines using Python, Pandas, Spark, SQL, and Azure cloud technologies.
+I love exploring cutting-edge tools like DuckDB and Polars, and sharing insights through technical blogs and workshops.
+When I'm not architecting data solutions, you'll find me planning my next adventure or exploring hidden gems across India.
+I document my travels and create detailed itineraries to help fellow travelers discover incredible destinations.
+Coffee enthusiast. Data geek. Perpetual learner.
 """
 
 [params.skills]
