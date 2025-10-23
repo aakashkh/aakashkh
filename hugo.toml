@@ -114,7 +114,7 @@ company = "Nagarro"
 company_url = "https://www.linkedin.com/company/11902/"
 location = "Gurugram, Haryana, India"
 roles = [
-  { title = "Senior Staff Consultant", duration = "Jul 2024 - Jul 2025", description = "Serving as a Senior Staff Consultant, contributing to advanced analytics and consulting projects with a hybrid work model. Provided leadership in complex data-driven solutions aligned with organizational goals." },
+  { title = "Senior Staff Consultant", duration = "Jul 2024 - Current", description = "Serving as a Senior Staff Consultant, contributing to advanced analytics and consulting projects with a hybrid work model. Provided leadership in complex data-driven solutions aligned with organizational goals." },
   { title = "Staff Consultant", duration = "Jan 2023 - Jun 2024", description = "Collaborated on data analytics initiatives and delivered impactful solutions to support business decisions. Successfully drove analytics projects in a hybrid environment, enhancing data utilization across departments." },
   { title = "Associate Staff Consultant", duration = "Jul 2021 - Dec 2022", description = "Led internal data analytics efforts, managing organizational data requirements and enabling strategic decision-making with CXOs. Key focus areas included hiring, resourcing, and financial analytics." },
   { title = "Senior Analyst", duration = "Jan 2020 - Jun 2021", description = "Led a team responsible for analytics and reporting, creating custom dashboards and Python-powered reports. Developed over 10 financial KPIs to support planning and analysis." },
