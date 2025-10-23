@@ -59,11 +59,110 @@ url = "#"
 download = true
 newPage = false
 
-# [[params.hero.button]]
-# name = "Contact"
-# url = "#contact"
-# download = false
-# newPage = false
+[params.skills]
+enable = true
+title = "Technical Expertise"
+subtitle = "9+ years of experience in data engineering and analytics"
+
+# Skill categories - Consolidated
+[[params.skills.categories]]
+  name = "Programming Languages"
+  description = "Core tools for scripting, querying, and automating data workflows in production environments."
+  
+  [[params.skills.categories.items]]
+  name = "Python"
+  image = "https://www.python.org/static/img/python-logo.png"
+  
+  [[params.skills.categories.items]]
+  name = "SQL"
+  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/SQL-Logo.svg/512px-SQL-Logo.svg.png"
+
+[[params.skills.categories]]
+  name = "Data Processing"
+  description = "High-performance libraries for wrangling and transforming large datasets efficiently."
+  
+  [[params.skills.categories.items]]
+  name = "Pandas"
+  image = "https://pandas.pydata.org/static/img/pandas.svg"
+  
+  [[params.skills.categories.items]]
+  name = "DuckDB"
+  image = "https://duckdb.org/images/logo-dl/DuckDB_Logo-horizontal.svg"
+  
+  [[params.skills.categories.items]]
+  name = "Polars"
+  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Polars_software_logo.svg/512px-Polars_software_logo.svg.png"
+
+[[params.skills.categories]]
+  name = "Cloud & Data Engineering"
+  description = "End-to-end data solutions on cloud platforms."
+  
+  [[params.skills.categories.items]]
+  name = "Azure"
+  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/2560px-Microsoft_Azure_Logo.svg.png"
+  
+  [[params.skills.categories.items]]
+  name = "Azure Data Lake"
+  image = "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V9/Storage/Data_Lake_Storage_Gen2.svg"
+  
+  [[params.skills.categories.items]]
+  name = "Data Factory"
+  image = "https://symbols.getvecta.com/stencil_28/27_data-factory.8004c08598.svg"
+  
+  [[params.skills.categories.items]]
+  name = "Azure Synapse"
+  image = "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V10/PNG/Analytics/Synapse_Analytics_48.png"
+  
+  [[params.skills.categories.items]]
+  name = "Microsoft Fabric"
+  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Microsoft_Fabric_logo.svg/512px-Microsoft_Fabric_logo.svg.png"
+
+[[params.skills.categories]]
+  name = "Business Intelligence"
+  description = "Tools for data visualization and business insights."
+  
+  [[params.skills.categories.items]]
+  name = "Power BI"
+  image = "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+  
+  [[params.skills.categories.items]]
+  name = "Tableau"
+  image = "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png"
+
+[params.timeline]
+enable = true
+title = "My Journey"
+subtitle = "Professional and Educational Milestones"
+
+[[params.timeline.events]]
+date = "2010"
+title = "Secondary Education"
+description = "Completed 10th standard with distinction"
+icon = "fa-graduation-cap"
+
+[[params.timeline.events]]
+date = "2012"
+title = "Higher Secondary"
+description = "Completed 12th standard with focus on Science stream"
+icon = "fa-graduation-cap"
+
+[[params.timeline.events]]
+date = "2012 - 2015"
+title = "BTech in Information Technology"
+description = "ABV-Indian Institute of Information Technology and Management"
+icon = "fa-university"
+
+[[params.timeline.events]]
+date = "2015 - 2017"
+title = "MBA in Finance"
+description = "ABV-Indian Institute of Information Technology and Management"
+icon = "fa-university"
+
+[[params.timeline.events]]
+date = "2017 - Present"
+title = "Nagarro"
+description = "Data and Strategy | Analytics Lead | 9+ years of experience in data engineering and analytics"
+icon = "fa-briefcase"
 
 [params.about]
 enable = true
@@ -78,33 +177,57 @@ I document my travels and create detailed itineraries to help fellow travelers d
 Coffee enthusiast. Data geek. Perpetual learner.
 """
 
-[params.skills]
-enable = true
-title = "Skills"
+  [[params.skills.categories.items]]
+  name = "DuckDB"
+  image = "https://duckdb.org/images/logo-dl/DuckDB_Logo-horizontal.svg"
+  
+  [[params.skills.categories.items]]
+  name = "Polars"
+  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Polars_software_logo.svg/512px-Polars_software_logo.svg.png"
 
-[[params.skills.list]]
-name = "Python"
-image = "/images/skills/python.png"
+[[params.skills.categories]]
+  name = "Azure Data Engineering"
+  description = "End-to-end pipelines on Azure for scalable storage, orchestration, and analytics."
+  
+  [[params.skills.categories.items]]
+  name = "Azure"
+  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/2560px-Microsoft_Azure_Logo.svg.png"
+  
+  [[params.skills.categories.items]]
+  name = "Azure Data Lake"
+  image = "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V9/Storage/Data_Lake_Storage_Gen2.svg"
+  
+  [[params.skills.categories.items]]
+  name = "Data Factory"
+  image = "https://symbols.getvecta.com/stencil_28/27_data-factory.8004c08598.svg"
+  
+  [[params.skills.categories.items]]
+  name = "Azure Synapse"
+  image = "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V10/PNG/Analytics/Synapse_Analytics_48.png"
+  
+  [[params.skills.categories.items]]
+  name = "Microsoft Fabric"
+  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Microsoft_Fabric_logo.svg/512px-Microsoft_Fabric_logo.svg.png"
 
-[[params.skills.list]]
-name = "Pandas"
-image = "/images/skills/pandas.svg"
+[[params.skills.categories]]
+  name = "Data Automation"
+  description = "Low-code orchestration to streamline ETL, integrations, and hybrid data flows."
+  
+  [[params.skills.categories.items]]
+  name = "Power Automate"
+  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Microsoft_Power_Automate.svg/512px-Microsoft_Power_Automate.svg.png"
+  
+  [[params.skills.categories.items]]
+  name = "Logic Apps"
+  image = "https://symbols.getvecta.com/stencil_28/43_logic-apps.50018fa8c3.jpg"
 
-[[params.skills.list]]
-name = "SQL"
-image = "/images/skills/sql.png"
-
-#[[params.skills.list]]
-#name = "Azure"
-#image = "/images/skills/azure.png"  # ADD azure.png TO static/images/skills/
-
-[[params.skills.list]]
-name = "Power BI"
-image = "/images/skills/powerbi.png"
-
-#[[params.skills.list]]
-#name = "Git"
-#image = "/images/skills/git.png"  # ADD git.png TO static/images/skills/
+[[params.skills.categories]]
+  name = "Business Intelligence"
+  description = "Visualization and reporting to deliver actionable insights across stakeholders."
+  
+  [[params.skills.categories.items]]
+  name = "Power BI"
+  image = "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
 
 [params.experience]
 enable = true
