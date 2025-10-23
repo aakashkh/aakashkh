@@ -21,8 +21,8 @@ weight = 1
 staticPath = "/aakashkh"
 title = "Aakash Khandelwal"
 description = "Software Engineer & Travel Enthusiast"
-favicon_header = "/fav_header.png"
-favicon_footer = "/fav_footer.png"
+favicon_header = "/images/fav.png"
+favicon_footer = "/images/fav.png"
 
 [params.theme]
 disableThemeToggle = false
