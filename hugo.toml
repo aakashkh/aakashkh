@@ -36,7 +36,7 @@ textAlign = "left"
 [params.navbar]
 align = "ms-auto"
 brandName = "Aakash Khandelwal"
-disableSearch = false
+disableSearch = true
 searchPlaceholder = "Search"
 [params.navbar.stickyNavBar]
 enable = true
