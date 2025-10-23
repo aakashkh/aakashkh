@@ -76,31 +76,31 @@ I am a software engineer with a passion for data engineering and analytics. I lo
 When I'm not coding, you'll find me planning my next adventure or trekking through the Himalayas. I document my travels and share practical guides to help fellow travelers discover incredible destinations.
 """
 
-[params.about.skills]
+[params.skills]
 enable = true
 title = "Skills"
 
-[[params.about.skills.list]]
+[[params.skills.list]]
 name = "Python"
 image = "/images/skills/python.png"
 
-[[params.about.skills.list]]
+[[params.skills.list]]
 name = "Pandas"
 image = "/images/skills/pandas.svg"
 
-[[params.about.skills.list]]
+[[params.skills.list]]
 name = "SQL"
 image = "/images/skills/sql.png"
 
-#[[params.about.skills.list]]
+#[[params.skills.list]]
 #name = "Azure"
 #image = "/images/skills/azure.png"  # ADD azure.png TO static/images/skills/
 
-[[params.about.skills.list]]
+[[params.skills.list]]
 name = "Power BI"
 image = "/images/skills/powerbi.png"
 
-#[[params.about.skills.list]]
+#[[params.skills.list]]
 #name = "Git"
 #image = "/images/skills/git.png"  # ADD git.png TO static/images/skills/
 
