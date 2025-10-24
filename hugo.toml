@@ -1,4 +1,4 @@
-baseURL = "https://aakashkh.github.io/aakashkh/"
+baseURL = "https://aakashkh.github.io/"
 languageCode = "en-us"
 title = "Aakash Khandelwal"
 theme = "hugo-profile"
@@ -71,7 +71,7 @@ subtitle = "9+ years of experience in data engineering and analytics"
   
   [[params.skills.categories.items]]
   name = "Python"
-  image = "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.pngg"
+  image = "images/skills/python.png"
   
   [[params.skills.categories.items]]
   name = "SQL"
