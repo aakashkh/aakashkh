@@ -71,11 +71,11 @@ subtitle = "9+ years of experience in data engineering and analytics"
   
   [[params.skills.categories.items]]
   name = "Python"
-  image = "https://www.python.org/static/img/python-logo.png"
+  image = "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.pngg"
   
   [[params.skills.categories.items]]
   name = "SQL"
-  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/SQL-Logo.svg/512px-SQL-Logo.svg.png"
+  image = "images/skills/sql.png"
 
 [[params.skills.categories]]
   name = "Data Processing"
@@ -83,39 +83,31 @@ subtitle = "9+ years of experience in data engineering and analytics"
   
   [[params.skills.categories.items]]
   name = "Pandas"
-  image = "https://pandas.pydata.org/static/img/pandas.svg"
+  image = "images/skills/pandas.png"
   
   [[params.skills.categories.items]]
   name = "DuckDB"
-  image = "https://duckdb.org/images/logo-dl/DuckDB_Logo-horizontal.svg"
+  image = "images/skills/duckdb.png"
   
   [[params.skills.categories.items]]
   name = "Polars"
-  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Polars_software_logo.svg/512px-Polars_software_logo.svg.png"
+  image = "https://pola.rs/share.jpg"
 
 [[params.skills.categories]]
   name = "Cloud & Data Engineering"
   description = "End-to-end data solutions on cloud platforms."
   
   [[params.skills.categories.items]]
-  name = "Azure"
-  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/2560px-Microsoft_Azure_Logo.svg.png"
-  
-  [[params.skills.categories.items]]
   name = "Azure Data Lake"
-  image = "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V9/Storage/Data_Lake_Storage_Gen2.svg"
+  image = "images/skills/data_lake.png"
   
   [[params.skills.categories.items]]
   name = "Data Factory"
   image = "https://symbols.getvecta.com/stencil_28/27_data-factory.8004c08598.svg"
   
   [[params.skills.categories.items]]
-  name = "Azure Synapse"
-  image = "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V10/PNG/Analytics/Synapse_Analytics_48.png"
-  
-  [[params.skills.categories.items]]
   name = "Microsoft Fabric"
-  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Microsoft_Fabric_logo.svg/512px-Microsoft_Fabric_logo.svg.png"
+  image = "images/skills/fabric.png"
 
 [[params.skills.categories]]
   name = "Business Intelligence"
@@ -125,9 +117,22 @@ subtitle = "9+ years of experience in data engineering and analytics"
   name = "Power BI"
   image = "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
   
+
+[[params.skills.categories]]
+  name = "Data Automation"
+  description = "Low-code orchestration to streamline ETL, integrations, and hybrid data flows."
+  
   [[params.skills.categories.items]]
-  name = "Tableau"
-  image = "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png"
+  name = "Power Automate"
+  image = "images/skills/power_automate.png"
+  
+  [[params.skills.categories.items]]
+  name = "Logic Apps"
+  image = "https://symbols.getvecta.com/stencil_28/43_logic-apps.50018fa8c3.jpg"
+
+
+
+
 
 [params.timeline]
 enable = true
@@ -169,66 +174,58 @@ enable = true
 title = "About Me"
 image = "/images/me.jpg"
 content = """
-I am an Analytics Lead with a passion for data engineering and modern analytics frameworks.
-With 9 years at Nagarro, I specialize in building scalable data pipelines using Python, Pandas, Spark, SQL, and Azure cloud technologies.
-I love exploring cutting-edge tools like DuckDB and Polars, and sharing insights through technical blogs and workshops.
-When I'm not architecting data solutions, you'll find me planning my next adventure or exploring hidden gems across India.
-I document my travels and create detailed itineraries to help fellow travelers discover incredible destinations.
-Coffee enthusiast. Data geek. Perpetual learner.
+<div class="about-content">
+    <div class="about-column">
+        <div class="about-section">
+            <h4>Data Integration</h4>
+            <ul>
+                <li><strong>9+ years</strong> designing ETL/ELT pipelines</li>
+                <li>Expert in <strong>Azure Data Lake</strong> solutions</li>
+                <li>Specialized in <strong>enterprise integration</strong></li>
+                <li>Cloud data warehousing expert</li>
+            </ul>
+        </div>
+
+        <div class="about-section">
+            <h4>Automation</h4>
+            <ul>
+                <li>Reduced reporting effort by <strong>70%</strong> via automation</li>
+                <li>Built custom <strong>Python frameworks</strong></li>
+                <li>Azure DevOps <strong>CI/CD</strong> implementation</li>
+                <li>Workflow optimization specialist</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="about-column">
+        <div class="about-section">
+            <h4>Analytics & Reporting</h4>
+            <ul>
+                <li>Interactive <strong>executive dashboards</strong></li>
+                <li>Developed <strong>10+ financial KPIs</strong></li>
+                <li>Data visualization expert</li>
+                <li>Actionable insights generation</li>
+            </ul>
+        </div>
+
+        <div class="about-section">
+            <h4>Leadership</h4>
+            <ul>
+                <li>Team mentorship & training</li>
+                <li>Modern data stack implementation</li>
+                <li>Cross-functional team leadership</li>
+                <li>Best practices evangelist</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<p style="text-align: center; margin-top: 2rem; font-style: italic; color: var(--text-secondary-color);">
+    Coffee enthusiast • Data geek • Perpetual learner
+</p>
 """
 
-  [[params.skills.categories.items]]
-  name = "DuckDB"
-  image = "https://duckdb.org/images/logo-dl/DuckDB_Logo-horizontal.svg"
-  
-  [[params.skills.categories.items]]
-  name = "Polars"
-  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Polars_software_logo.svg/512px-Polars_software_logo.svg.png"
-
-[[params.skills.categories]]
-  name = "Azure Data Engineering"
-  description = "End-to-end pipelines on Azure for scalable storage, orchestration, and analytics."
-  
-  [[params.skills.categories.items]]
-  name = "Azure"
-  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/2560px-Microsoft_Azure_Logo.svg.png"
-  
-  [[params.skills.categories.items]]
-  name = "Azure Data Lake"
-  image = "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V9/Storage/Data_Lake_Storage_Gen2.svg"
-  
-  [[params.skills.categories.items]]
-  name = "Data Factory"
-  image = "https://symbols.getvecta.com/stencil_28/27_data-factory.8004c08598.svg"
-  
-  [[params.skills.categories.items]]
-  name = "Azure Synapse"
-  image = "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V10/PNG/Analytics/Synapse_Analytics_48.png"
-  
-  [[params.skills.categories.items]]
-  name = "Microsoft Fabric"
-  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Microsoft_Fabric_logo.svg/512px-Microsoft_Fabric_logo.svg.png"
-
-[[params.skills.categories]]
-  name = "Data Automation"
-  description = "Low-code orchestration to streamline ETL, integrations, and hybrid data flows."
-  
-  [[params.skills.categories.items]]
-  name = "Power Automate"
-  image = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Microsoft_Power_Automate.svg/512px-Microsoft_Power_Automate.svg.png"
-  
-  [[params.skills.categories.items]]
-  name = "Logic Apps"
-  image = "https://symbols.getvecta.com/stencil_28/43_logic-apps.50018fa8c3.jpg"
-
-[[params.skills.categories]]
-  name = "Business Intelligence"
-  description = "Visualization and reporting to deliver actionable insights across stakeholders."
-  
-  [[params.skills.categories.items]]
-  name = "Power BI"
-  image = "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
-
+ 
 [params.experience]
 enable = true
 title = "Experience"

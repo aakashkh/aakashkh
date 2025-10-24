@@ -1,0 +1,11 @@
+.typed-text-container {
+    display: inline-block;
+}
+
+.typed-text {
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    letter-spacing: .15em;
+}
