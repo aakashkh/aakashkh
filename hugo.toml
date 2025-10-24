@@ -18,7 +18,7 @@ url = "/blogs"
 weight = 1
 
 [params]
-staticPath = "/aakashkh"
+staticPath = "/aakashkh.github.io"
 title = "Aakash Khandelwal"
 description = "Software Engineer & Travel Enthusiast"
 favicon_header = "/images/fav.png"
